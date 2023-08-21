@@ -1,0 +1,28 @@
+.imageHeaderClass {
+    width: 100%;
+    height: 45vh; /* vh stands for viewport height, 20vh means 20% of the viewport height */
+    object-fit: cover; /* To ensure the image covers the entire container without stretching */
+}
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 7.25em;
+    height: 45vh; /* vh stands for viewport height, 20vh means 20% of the viewport height */
+    object-fit: cover; /
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 3.5em;
+    font-family: 'Boogaloo';
+    letter-spacing: 5px;
+}

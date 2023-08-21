@@ -1,0 +1,42 @@
+/* GetInTouchForm.css */
+
+.getInTouchForm {
+    padding: 20px; /* Add some padding to the form container */
+    margin-bottom: 10em;
+}
+
+/* Adjust the spacing between text fields */
+.MuiFormControl-root {
+    margin-bottom: 10px;
+}
+
+/* Adjust the label color if needed */
+.MuiInputLabel-root {
+    color: #000;
+}
+
+/* Update outline color */
+.MuiOutlinedInput-notchedOutline {
+    border-color: #00C2B5 !important;
+}
+
+/* Update focused outline color */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #00C2B5 !important;
+}
+
+/* Adjust the width of the text fields */
+.getInsets{
+    width: 100%;
+}
+
+.getInTouchSubmit{
+    transform: rotate(-5deg);
+    width: 10em;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}

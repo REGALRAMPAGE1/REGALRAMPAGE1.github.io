@@ -1,0 +1,16 @@
+.whyChooseUsContainer{
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 4em;
+}
+
+.whyChooseUsContainer h3{
+    text-align: start;
+    font-family: 'Boogaloo';
+    color: #00C2B5;
+}
+
+.whyChooseUsContainer p{
+    font-family: 'Poppins-Regular';
+}

@@ -1,0 +1,78 @@
+.container {
+    height: 18em;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 3em;
+    font-weight: bold;
+    padding-right: 5em;
+    flex-direction: row;
+    align-items: center;
+    color: #006667;
+    font-family: 'Boogaloo';
+    letter-spacing: 2px;
+}
+
+.Column{
+    margin-top: 4.5em;
+}
+
+.form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* .form input {
+    display: block;
+} */
+
+
+.MuiFormControl-root {
+    height: 1em;
+    width: 20em; /* Adjust the width as per your preference */
+    margin-bottom: 1em; /* Adjust the spacing between text fields */
+}
+
+.MuiInputLabel-root {
+    height: 2em;
+    color: #000; /* Adjust the label color if needed */
+}
+
+
+/* Update outline color */
+.MuiOutlinedInput-notchedOutline {
+    border-color: #00C2B5 !important;
+}
+
+/* Update focused outline color */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #00C2B5 !important;
+}
+
+.homeSubmit{
+    transform: rotate(-5deg) translateY(1.5em) translateX(5em);
+    width: 10em;
+}
+
+.makeThingsHappenContainer{
+    margin-bottom: 6em;
+    margin-top: 2em;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        font-size: 2.5em;
+        font-weight: bold;
+        padding-right: 3em;
+        flex-direction: row;
+        align-items: center;
+        color: #006667;
+        font-family: 'Boogaloo';
+        letter-spacing: 2px;
+    }
+}

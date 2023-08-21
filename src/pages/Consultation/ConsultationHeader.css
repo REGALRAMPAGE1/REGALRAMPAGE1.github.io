@@ -1,0 +1,15 @@
+.ConsultationHeaderSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ConsultationHeaderSection h1{
+    font-family: 'Boogaloo', cursive;
+    font-size: 2.5em;
+    color: #00C2B5;
+    letter-spacing: 3px;
+}

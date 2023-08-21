@@ -1,0 +1,38 @@
+.aboutFrankensteinContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.aboutFrankensteinContainer h1{
+    font-family: 'Boogaloo';
+    font-size: 2.5em;
+    color: #00C2B5;
+    letter-spacing: 3px;
+}
+
+.aboutFrankensteinContainer p{
+    line-height: 1.5em;
+    font-family: 'Poppins-Regular';
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+@media (min-width: 1592px) {
+    .aboutFrankensteinContainer p{
+        line-height: 1.5em;
+        font-family: 'Poppins-Regular';
+        padding-left: 7em;
+        padding-right: 7em;
+        padding-top: 2em;
+        font-size: larger;
+        text-align: center;
+    }
+}

@@ -1,0 +1,142 @@
+.card {
+  width: 20em;
+  height: 25em;
+  border: none;
+  margin: 2em;
+}
+
+.cardContent {
+  text-align: center;
+  position: relative;
+  padding: 5em;
+  height: 25em;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+}
+
+.card:hover .cardContent {
+  transform: rotateY(.5turn);
+}
+
+.cardFront, 
+.cardBack {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 2em;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.cardTitle {
+  font-size: 2.25rem;
+  transform: translateZ(5rem) translateY(1em);
+  color: black;
+  font-family: 'Boogaloo';
+  letter-spacing: 2px;
+}
+
+.cardBack{
+  transform: rotateY(.5turn);
+  background-color:  #ececec;
+}
+
+.cardFront{
+  background-color:  #ececec;
+}
+
+.cardBody{
+  transform: translateZ(2rem);
+  font-family: 'Poppins-Regular';
+  font-size: 1.2em;
+} 
+
+.cardPrice{
+  transform: translateZ(2.5rem);
+  font-family: 'Boogaloo';
+  font-weight: bold;
+  font-size: 2em;
+  background-image: linear-gradient(to bottom, #00C2B5, #003E72 90%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: 'Boogaloo';
+}
+
+.cardFlipSubmit{
+  transform: translateZ(1.5rem);
+}
+
+
+@media (max-width: 1200px) {
+  .cardFront, 
+  .cardBack {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 2em;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+    transform: translateZ(3rem) translateY(1em);
+    color: black;
+    font-family: 'Boogaloo';
+    letter-spacing: 2px;
+  }
+
+  .card {
+    width: 13em;
+    height: 18em;
+    border: none;
+    margin: 1em;
+  }
+  
+  .cardContent {
+    text-align: center;
+    position: relative;
+    padding: 5em;
+    height: 18em;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+  }
+
+  .cardBack{
+    transform: rotateY(.5turn);
+    background-color:  #ececec;
+  }
+  
+  .cardFront{
+    background-color:  #ececec;
+  }
+
+  .cardBody{
+    transform: translateZ(2rem);
+    font-family: 'Poppins-Bold';
+    font-size: 0.725em;
+    font-weight: 600;
+  } 
+
+  .cardFlipSubmit{
+    transform: translateZ(1.2rem);
+  }
+
+  .cardPrice{
+    transform: translateZ(2.5rem);
+    font-family: 'Boogaloo';
+    font-weight: bold;
+    font-size: 1.5em;
+    background-image: linear-gradient(to bottom, #00C2B5, #003E72 90%);
+    color: black;
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    font-family: 'Boogaloo';
+  }
+}
+

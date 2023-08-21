@@ -1,0 +1,11 @@
+.ccPar{
+    font-family: 'Poppins-Regular';
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+
+.ccPar:first-of-type{
+    padding-top: 2em;
+}

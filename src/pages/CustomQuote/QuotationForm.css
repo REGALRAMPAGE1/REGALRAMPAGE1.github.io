@@ -1,0 +1,41 @@
+.customQuoteHeaderSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 12em;
+  margin-bottom: 2em;
+}
+
+.customQuoteHeaderSection h1{
+  font-family: 'Boogaloo', cursive;
+  font-size: 2.5em;
+  color: #00C2B5;
+  letter-spacing: 3px;
+}
+
+.descriptionParagraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Poppins-Regular';
+}
+
+.breatheLifeParagraph{
+  padding-top: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Poppins-Regular';
+}
+
+.breatheLifeHeader{
+  color: #00C2B5;
+  font-size: 1.25em;
+}

@@ -1,0 +1,16 @@
+.consultationForm{
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 12em;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.consultationSubmit{
+    width: 10em;
+    transform: rotate(-5deg);
+}

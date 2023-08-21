@@ -1,0 +1,12 @@
+.Header{
+    height: 2.5em;
+    justify-content: space-evenly;
+}
+
+.HeaderText:hover{
+    color: #00C2B5;
+}
+
+.logoImageHeader{
+    max-height: 4.5em;
+}

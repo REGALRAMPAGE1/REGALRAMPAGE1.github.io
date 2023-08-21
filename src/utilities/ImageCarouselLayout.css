@@ -1,0 +1,15 @@
+.ImageCarouselStyle{
+    padding-top: 6em;
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
+}
+
+@media (min-width: 1200px){
+    .ImageCarouselStyle{
+        padding-top: 1em;
+        width: 97%;
+        overflow: hidden;
+        align-self: center;
+    }
+}

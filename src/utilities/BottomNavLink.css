@@ -1,0 +1,68 @@
+.column {
+    padding-left: 4em;
+    padding-top: 2em;
+    line-height: 1.5em;
+}
+
+.column:first-child {
+    padding-top: 2em;
+    padding-left: 1em;
+    transform: translateX(-1em);
+}
+
+@media (min-width: 1200px) {
+    .column {
+        padding-left: 2em;
+        padding-top: 2em;
+        line-height: 1.5em;
+        transform: translateX(-7em);
+    }
+    .column:first-child {
+        padding-top: 2em;
+        padding-left: 1em;
+        transform: translateX(-13em);
+    }
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Poppins-Regular';
+}
+
+.links:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.icons-row{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: flex-end;
+}
+
+.right-icons{
+    margin-left: auto;
+    margin-top: 2.5em;
+    padding-right: 3em;
+}
+
+@media (min-width: 1200px) {
+    .right-icons{
+        margin-left: auto;
+        margin-top: 2.5em;
+        padding-right: 1em;
+        transform: translateX(8em);
+    }
+}
+
+.bottomNavLogo{
+    max-height: 6em;
+    padding-right: 2em;
+}
+
+.container.linkItems{
+    height: 0;
+}

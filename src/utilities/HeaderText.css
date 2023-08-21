@@ -1,0 +1,15 @@
+.HeaderText{
+    color: #006687; 
+    padding: 1em;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Poppins-Regular';
+}
+
+.ActiveHeaderText{
+    color: #00C2B5;
+    padding: 1em;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Poppins-Regular';
+}

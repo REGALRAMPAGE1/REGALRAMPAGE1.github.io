@@ -1,0 +1,26 @@
+.servicesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+}
+
+.servicesContainer h1{
+    font-family: 'Boogaloo';
+    font-size: 2.5em;
+    color: #00C2B5;
+    letter-spacing: 3px;
+}
+
+.servicesParagraph{
+    font-family: 'Poppins-Regular';
+}
+
+
+.servicesParagraph:first-of-type{
+    font-family: 'Poppins-Regular';
+    padding-top: 2em;
+}
